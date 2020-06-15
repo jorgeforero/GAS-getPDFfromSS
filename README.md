@@ -8,6 +8,7 @@ para ser abierto.
 Pasos para usarlo:
 
 1- Cree un doc (corresponde al template)
+
 2- En el cuerpo del doc, ubique los reemplazables que requiera y que correspondan a las columnas de los datos en la hoja
 de cálculo.  Este es un ejemplo del contenido del template:
 
@@ -27,8 +28,10 @@ https://docs.google.com/document/d/1yqhoLWxKZnR1777Ihr4eEO2xloM6Af13J58JMi13SDA/
 entonces el id del documento es 1yqhoLWxKZnR1777Ihr4eEO2xloM6Af13J58JMi13SDA
 
 4- Cree la hoja de cálculo y copie el script
+
 5- Reemplace el valor de la variable TEMPLATEID por el id guardado en el ejemplo del punto 3 y que corresponda al id de su
 template.
+
 6- La hoja de calculo debe tener un encabezado que va en la fila 1 de la hoja.  Este encabezado tiene los nombres de los datos
 de las columnas.  En mi ejemplo va de la siguiente forma (y que corresponden a los reemplazables definidos en el template):
 
@@ -36,6 +39,7 @@ fecha	Nombre	Apellido	Direccion	Telefono
 
 7- En el script ejecute el onOpen.  Una vez ejecutado y fijado los permisos, aparece una nueva opción en el menú de la hoja de
 cálculo: "Acciones" y luego "Generar PDF".
+
 8- Para ejecutar el script, ubique el cursos en una celda con datos, haga clic en Acciones > Generar PDF y luego de algunos
 aparecerá un modal con la url del archivo PDF generado.  Haga clic sobre el enlace y aparecerá el PDF.
 
