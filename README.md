@@ -1,4 +1,4 @@
-# Google Apps Script (GAS) getPDFfromSS (Crear archivo PDF a partir de datos de una hoja de cálculo)
+# Google Apps Script (GAS) getPDFfromSS
 
 Este script crea un archivo PDF en Drive a partir de datos obtenidos de la fila actual de una hoja de cálculo. Los datos de
 la fila son reemplazados en un template tipo doc que tiene definidos los reemplazables correspondientes (identificados con {} )
